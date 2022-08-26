@@ -1,0 +1,287 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate, post-check=0, pre-check=0" />
+<meta http-equiv="cache-control" content="max-age=0" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+<meta http-equiv="pragma" content="no-cache" />
+<title>Hongjun Choi</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link href="styles/style.css?v=1.1" rel="stylesheet" title="CSS" type="text/css">
+<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+
+<body>
+<div id="container">
+
+<!--
+<div id="masthead">
+<h3>Hongjun Choi</h3>
+</div>
+-->
+
+<div id="column_l">
+
+<!--profile-->
+<br>
+<div id="profile">
+<table>
+<tbody>
+<tr>
+<td><a href="index.html"><img width="300" alt="(Hongjun's photo)" src="jun.jpg"></a></td>
+<td width="30px"></td>
+
+<td valign="bottom">
+<dl>
+	<dt><h2>Hongjun Choi <font size="3"> (최홍준)</font></h2></dt>
+	<dt>Ph.D. Candiate</dt>
+	<dt><a href="http://www.cs.purdue.edu/">Department of Computer Science</a></dt>
+	<dt><a href="http://www.purdue.edu/">Purdue University</a></dt>
+</dl>
+<span class="glyphicon glyphicon glyphicon-envelope"></span>&nbsp;hongjun at purdue.edu</a>
+<dl>
+<div id="navigation">
+	<ul>
+	<li><a href="index.html">
+		<span class="glyphicon glyphicon glyphicon-home"></span>&nbsp;Home</a></li>
+	<li><a href="index.html#publications.html">
+		<span class="glyphicon glyphicon glyphicon-list-alt"></span>&nbsp;Publications</a></li>
+	<li><a href="projects.html">
+		<span class="glyphicon glyphicon glyphicon-tasks"></span>&nbsp;Projects</a></li>
+	<li><a href="resources.html">
+        <span class="glyphicon glyphicon glyphicon-folder-open"></span>&nbsp;Resources</a></li>
+
+	</ul>
+</div>
+</dl>
+</td>
+
+</tr>
+</tbody>
+</table>
+</div> <!--profile-->
+
+
+<!--main contents-->
+<div id="main_contents">
+<table style="width: 100%">
+<tr>
+<td valign="top">
+<hr>
+
+<h2>Research Projects</h2>
+<p>
+My research aims to build secure and reliable cyber-physical systems (CPS). 
+To this end, I incorporate several techniques from program analysis, control engineering, system modeling and software testing.  
+Here, I introduce the exiting research projects I have been involved in. 
+</p>
+<hr>
+
+<div id="project">
+<h3><div id="invariant"><font color='black'><b>
+CPS Attack Defense -- Physical Attack Detection via Control Invariants</b></font></div></h3>
+<img width="250" src="./images/p1_overview.jpg" alt="(ci_overview)" style="float:left; margin: 5px 20px 5px 0px;">
+<!--<div style="float:right; margin: 5px 20px 5px 0px;">-->
+<iframe width="400" height='242' src="https://www.youtube.com/embed/JJ8by271OF0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br><br>
+<p>
+Robotic vehicles (RVs) are a type of cyber-physical systems that operate in the physical world under the control of computing components in the cyber world. Despite RVs’ robustness against natural disturbances, cyber or physical attacks against RVs may lead to physical malfunction and subsequently, disruption or failure of the vehicles’ missions.<br>  
+To avoid or mitigate such consequences, my research presents a novel attack detection framework to identify external, physical on the fly by deriving and monitoring <b>Control Invariants (CI) <a href='pubs/CCS2018_CI.pdf'>[CCS2018]</a></b>.
+The control invariants are determined jointly by physical attributes, its control algorithm, and the laws of physics. Thus, it reflects RV's normal behaviors according to its control inputs and current physical states. Any deviation from it will be considered anomalous.
+</p>
+
+<a href="pubs/CCS2018_CI.pdf">
+<i class='far fa-file-pdf'></i> Paper</a>&ensp;
+<a href="https://www.youtube.com/watch?v=5nqgpWxcP4c&list=PL8h4G2wk230hzL5kA3yEO5r9WjyNWYrFn&index=2&t=0s">
+<i class='far fa-film'></i> Talk</a>&ensp;
+<a href="https://github.com/hongjun9/CPS_Invariant">
+<i class='fab fa-github'></i> CI framework</a>&ensp;
+<a href="https://www.youtube.com/playlist?list=PL8h4G2wk230gC1MmfN75gOuw6e7kyNPvy"><i class='fab fa-youtube'></i> Demos</a>&ensp;
+<br>
+<a href="https://dronebelow.com/2018/10/22/detecting-attacks-against-robotic-vehicles-with-control-invariants/"><i class='far fa-newspaper'></i> Media</a>&ensp;
+
+
+<br>
+<br>
+
+<h4>Contributors:</h4>
+Hongjun Choi, Wen-Chuan Lee, Yousra Aafer, Fan Fei, Zhan Tu, Xiangyu Zhang, Dongyan Xu, Xinyan Deng
+<br>
+<h4>Support:</h4>
+The research was supported, in part, by ONR. <!--under Grant N00014-17-1-2045.-->  
+<img width="100" src="./images/onr_logo.png" style="float:left; margin: 5px 20px 5px 0px;">
+</div>
+
+<br><br><br>
+<hr>
+<div id="project">
+<h3><div id="soft_sensory">
+<font color='black'><b>CPS Attack Defense: Sensor Attack Recovery via Software Sensors</b></font></div></h3>
+<iframe width="350" height="200" src="https://www.youtube.com/embed/e8J6ixvtXqQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="350" height="200" src="https://www.youtube.com/embed/oC3SOGT_XDY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
+
+<p>
+Attacks on autonomous vehicles are safety-critical as it could cause physical damages or even endanger human lives.
+Especially, many sensor attacks have been reported recently, which fundamentally compromise the source of control.
+Therefore, along with the wide deployment of the autunomous vehicles, defending against such adversarial attempts are increasingly important.
+Unlike the traditional physical control systems, the emergence of computationally powerful Cyber-Physical Systems (CPS) allows new opportunities to deploy more complex software-based control components.
+Advancing the previous work, we present a novel recovery technique against various sensor attacks with so-called <b>Software Sensors</b> <a href="pubs/RAID2020_softsensor.pdf">[RAID 2020]</a>.
+Specifically, our technique builds a predictive state-space model for the individual sensorrs based on the generic system identification technique.
+Sensor measurement prediction is tailored to the individual sensors and runs as a software backup of the corresponding physical sensor. When physical sensors are under attack, the corresponding software sensors can localize and recover the compromised sensors individually and provide attack-resilient and seamless control to prevent further damage.
+</p>
+
+<a href="pubs/RAID2020_softsensor.pdf">
+<i class='far fa-file-pdf'></i> Paper</a>&ensp;
+<a href="https://www.youtube.com/playlist?list=PL8h4G2wk230jqyHv2zu9QKpBTxczUw8uy"><i class='fab fa-youtube'></i> Demos</a>&ensp;
+
+<br>
+<br>
+
+<h4>Contributors:</h4>
+Hongjun Choi, Sayali Kate, Yousra Aafer, Xiangyu Zhang, Dongyan Xu 
+<h4>Support:</h4>
+The research was supported, in part, by ONR under Grant N00014-17-1-2045.  
+<img width="100" src="./images/onr_logo.png" style="float:left; margin: 5px 20px 5px 0px;">
+</div>
+<br><br><br>
+
+
+<hr>
+<div id="project">
+<h3><div id="cp_inconsistency"><font color='black'><b>
+Secure Control Program -- CP-inconsistency Identification</b></font></div></h3>
+<img width="350" src="images/cpi.png" alt="(cpi_overview)" style="float:left; margin: 10px 20px 10px 0px;">
+<!--
+<iframe width="400" height='242' src="https://www.youtube.com/embed/JJ8by271OF0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+-->
+
+<p>
+<b>Cyber-Physical inconsistency (CP-inconsistency)</b> is a new type of vulnerability for cyber-physical systems (CPS), which is induced by the inherent inaccuracy of general-purpose high level programming languages in describing complex physics. These vulnerabilities are safety critical and can be exploited by solely manipulating environmental conditions.
+Once exploited, the control program misunderstands real physical situations erroneously, and it may fail to report real physical accidents (i.e., under-approximation) or report false alarms (i.e., over-approximation), while the RV is still operating normally. Both situations could lead to life-threatening consequences. 
+We develop a testing technique, called <b>CP-inconsistency identification (CPI) <a href='pubs/CCS2020_CPI.pdf'>[CCS2020]</a></b>, to detect such vulnerabilites systematically. The technique features innovative inter-paly of program anlaysis, system modeling, robot simulation and multi-objective search based testing. 
+</p>
+
+<iframe width="350" height="200" src="https://www.youtube.com/embed/HUj9FEyF4Pk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="350" height="200" src="https://www.youtube.com/embed/EbKsPcqg4AM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<br>
+
+<a href="pubs/CCS2020_CPI.pdf">
+<i class='far fa-file-pdf'></i> Paper</a>&ensp;
+<!--<a href="https://www.youtube.com/watch?v=5nqgpWxcP4c&list=PL8h4G2wk230hzL5kA3yEO5r9WjyNWYrFn&index=2&t=0s">[Talk]</a>
+-->
+<a href="https://github.com/hongjun9/CPinconsistency">
+<i class='fab fa-github'></i> CPII</a>&ensp;
+<a href="https://www.youtube.com/playlist?list=PL8h4G2wk230j8ZTQDdE3JJDLzK7J4pF27"><i class='fab fa-youtube'></i> Demos</a>&ensp;
+<br>
+<br>
+<!--
+<a href="https://youtu.be/JJ8by271OF0">[Demo1]</a>
+-->
+
+<h4>Contributors:</h4>
+Hongjun Choi, Sayali Kate, Yousra Aafer, Xiangyu Zhang, Dongyan Xu
+<h4>Support:</h4>
+<!--The research was supported, in part, by ONR.  --> 
+<img width="100" src="./images/onr_logo.png" style="float:left; margin: 5px 20px 5px 0px;">
+<img width="50" src="./images/nsf.jpg" style="float:left; margin: 5px 20px 5px 0px;">
+<img width="100" src="./images/sandia.png" style="float:left; margin: 5px 20px 5px 0px;">
+</div>
+<br><br><br>
+
+
+<hr>
+<div id="project">
+<h3><div id="rvplayer"><font color='black'><b>
+Attack Investigation -- Robotic Vehicle Forensics by Replay with What-if Reasoning</b></font></div></h3>
+<img width="350" src="images/rvplayer.png" alt="(rvplayer_overview)" style="float:left; margin: 10px 20px 10px 0px;">
+<!--
+<img width="350" src="images/cpi.png" alt="(cpi_overview)" style="float:left; margin: 10px 20px 10px 0px;">
+-->
+<!--
+<iframe width="400" height='242' src="https://www.youtube.com/embed/JJ8by271OF0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+-->
+
+<p>
+Robotic vehicle (RV) attack forensics identifies root cause of an accident. Reproduction of accident and reasoning about its causation are critical steps in the process. Ideally, such investigation would be performed in real-world field tests by faithfully regenerating the environmental conditions and varying the different factors to understand causality. However, such analysis is extremely expensive and in many cases infeasible due to the difficulties of enforcing physical conditions. 
+
+Existing RV forensics techniques focus on faithful accident reproduction in simulation and hence lack the support of causality reasoning. They also entail substantial overhead. We propose <b>RVPLAYER <a href='pubs/NDSS2022_RVPlayer.pdf'>[NDSS2022]</a></b>, a system for RV forensics. It supports replay with what-if reasoning inside simulator (e.g., checking if an accident can be avoided by changing some control parameter, code, or vehicle states). It is a low-cost replacement of the expensive field test based forensics. It features an efficient demand-driven adaptive logging method capturing non-deterministic physical conditions, and a novel replay technique supporting various replay policies that selectively enable/disable information during replay for root cause analysis. 
+
+<!--
+Our evaluation on 6 RVs (4 real and 2 virtual), 5 real- world auto-driving traces, and 1194 attack instances of various kinds reported in the literature shows that it can precisely pinpoint the root causes of these attacks without false positives. It has only 6.57% of the overhead of a simple logging design.
+-->
+</p>
+
+<a href="pubs/NDSS2022_RVPlayer.pdf">
+<i class='far fa-file-pdf'></i> Paper</a>&ensp;
+<!--<a href="https://www.youtube.com/watch?v=5nqgpWxcP4c&list=PL8h4G2wk230hzL5kA3yEO5r9WjyNWYrFn&index=2&t=0s">[Talk]</a>
+-->
+<br>
+<br>
+<!--
+<a href="https://youtu.be/JJ8by271OF0">[Demo1]</a>
+-->
+
+<h4>Contributors:</h4>
+Hongjun Choi, Zhiyuan Cheng, Xiangyu Zhang
+<h4>Support:</h4>
+<!--The research was supported, in part, by ONR.  --> 
+<img width="100" src="./images/onr_logo.png" style="float:left; margin: 5px 20px 5px 0px;">
+<img width="50" src="./images/nsf.jpg" style="float:left; margin: 5px 20px 5px 0px;">
+<img width="100" src="./images/DARPA_Logo_2010.png" style="float:left; margin: 5px 20px 5px 0px;">
+</div>
+<br><br><br>
+
+
+</td>
+</tr>
+</tbody>
+</table>
+</div><!--main contents-->
+
+<hr>
+<div id="footer">
+<p>
+<!--&copy Hongjun Choi <br>-->
+<img width="120" alt="(purdue)" src="images/purdue.png"></img>
+<button type="button" 
+<p>
+<script type="text/javascript">
+var sc_project=12329648; 
+var sc_invisible=0; 
+var sc_security="6331f34e"; 
+var sc_text=5; 
+var sc_https=1; 
+var scJsHost = "https://";
+document.write("<sc"+"ript type='text/javascript' src='" + scJsHost+ "statcounter.com/counter/counter.js'></"+"script>");
+</script>
+</p>
+</button>
+</p>
+
+<noscript>
+<div class="statcounter">
+	<a title="Web Analytics Made Easy - StatCounter" href="https://statcounter.com/" target="_blank">
+	<img class="statcounter" src="https://c.statcounter.com/12329648/0/6331f34e/0/" alt="Web Analytics Made Easy - StatCounter">
+	</a>
+</div>
+</noscript>
+<!-- End of Statcounter Code -->
+
+<p>Last updated : May 2020</p>
+<br>
+</div>
+
+
+
+
+</body>
+</html>
+
+
